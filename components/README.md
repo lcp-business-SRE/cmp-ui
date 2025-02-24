@@ -1,6 +1,7 @@
 # コンポネントのまとめ
 
 
+
 ## 必要となるコンポネント
 
 ### Level1: Basic Components
@@ -11,7 +12,7 @@
 
 - ボタン種類
   - 画面遷移
-    - 戻る
+    - 次へ／戻る系
   - 選択系
   - アクション系
     - 処理実行
@@ -45,8 +46,6 @@
     - 用途
       - テンプレート内容の入力
 
-
-
 ### Level2: Combined Components
 
 コンポーネントを複数組み合わせて作るコンポーネント。Dropdown, Breadcrumbs, Pagination, Toaster, Form Controll, Navigationなど。
@@ -72,7 +71,7 @@
     - 一括削除
     - エクスポート
     - インポート
-  - 細かい機能
+  - その他機能
     - 絞り込み
     - 並び替え
     - ページャ
@@ -83,7 +82,7 @@
 参考
 
 - [freee](https://vibes.freee.co.jp/?path=/docs/lv2-listtable-groupedlisttable--docs)
-- [SmartHr](https://story.smarthr-ui.dev/?path=/docs/data-display%EF%BC%88%E3%83%87%E3%83%BC%E3%82%BF%E8%A1%A8%E7%A4%BA%EF%BC%89-table--docs&globals=backgrounds.grid:!true)
+- [SmartHr](https://story.smarthr-ui.dev/?path=/story/smarthr-patterns_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB--default)
 
 ### Level3: Layout Patterns
 
