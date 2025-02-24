@@ -1,22 +1,26 @@
 # コンポネントのまとめ
 
-
-
-## 必要となるコンポネント
-
-### Level1: Basic Components
+## Level1: Basic Components
 
 コンポーネントとして使える最小の要素。Button, Text, List, TextLink, Label, User Iconなど。 通常状態ではElevationの差がなく、hoverなどによって初めてElevationが変化する。
 
-#### ボタン
+### BUTTONS（ボタン）
 
-- ボタン種類
-  - 画面遷移
-    - 次へ／戻る系
-  - 選択系
-  - アクション系
-    - 処理実行
-    - 削除
+- STORIES
+  - variant
+    - secondary : 通常アクション系
+    - primary : 業務処理などの処理実行系（青系）
+    - danger : データ削除などの処理実行系（赤系）
+  - [ ] アイコン ※意味を分けるか
+    - アイコンあり :
+    - アイコン無し :
+  - ステータス
+    - 非活性
+    - インフォメーション : ボタンの説明、ホバーで説明を表示
+    - ローディング : 処理実行中のアニメーション
+    - 選択実行処理 : 一つのボタンでアクションを分割する場合
+
+[SmartHR UI BUTTONS](https://story.smarthr-ui.dev/?path=/docs/buttons%EF%BC%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%89-button--docs&globals=backgrounds.grid:!false;)
 
 #### 選択系
 
@@ -73,6 +77,8 @@
     - インポート
   - その他機能
     - 絞り込み
+      - テキストでの絞り込み
+      - 分類での絞り込み（ステータス等）
     - 並び替え
     - ページャ
     - 一覧更新
