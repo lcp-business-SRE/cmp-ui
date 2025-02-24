@@ -78,8 +78,12 @@
     - ページャ
     - 一覧更新
 - 用途
-    - 時刻表の一覧表示し、選択した時刻表に対するアクションができる
+  - 時刻表の一覧表示し、選択した時刻表に対するアクションができる
 
+参考
+
+- [freee](https://vibes.freee.co.jp/?path=/docs/lv2-listtable-groupedlisttable--docs)
+- [SmartHr](https://story.smarthr-ui.dev/?path=/docs/data-display%EF%BC%88%E3%83%87%E3%83%BC%E3%82%BF%E8%A1%A8%E7%A4%BA%EF%BC%89-table--docs&globals=backgrounds.grid:!true)
 
 ### Level3: Layout Patterns
 
