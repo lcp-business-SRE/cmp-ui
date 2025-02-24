@@ -6,6 +6,8 @@
 
 ### BUTTONS（ボタン）
 
+サービスで利用するボタン
+
 - STORIES
   - variant
     - secondary : 通常アクション系
@@ -22,21 +24,41 @@
 
 [SmartHR UI BUTTONS](https://story.smarthr-ui.dev/?path=/docs/buttons%EF%BC%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%89-button--docs&globals=backgrounds.grid:!false;)
 
-#### 選択系
+### DropdownMenuButton
 
-##### ラジオ系
+一覧の一括処理系のボタン
+
+[SmartHR UI DropdownMenuButton](https://story.smarthr-ui.dev/?path=/docs/buttons%EF%BC%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%89-dropdownmenubutton--docs&globals=backgrounds.grid:!false;)
+
+### FilterDropdown
+
+一覧の絞り込みボタン
+
+[SmartHR UI FilterDropdown](https://story.smarthr-ui.dev/?path=/docs/buttons%EF%BC%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%89-filterdropdown--docs&globals=backgrounds.grid:!false;)
+
+### SortDropdown
+
+一覧のソートボタン
+
+[SmartHR UI SortDropdown](https://story.smarthr-ui.dev/?path=/docs/buttons%EF%BC%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%89-sortdropdown--docs)
+
+### 選択系
+
+### ラジオ系
 
 単一選択系オブジェクト
+
+TODO:どのような場合に以下を使い分けるか検討する
 
 - ラジオボタン
 - 選択可能ボタン
 - プルダウン
 
-##### チェックボックス系
+### チェックボックス系
 
 複数選択可能
 
-#### 入力エリア
+### 入力エリア
 
 - 入力オブジェクト種類
   - 単一入力
@@ -50,11 +72,11 @@
     - 用途
       - テンプレート内容の入力
 
-### Level2: Combined Components
+## Level2: Combined Components
 
 コンポーネントを複数組み合わせて作るコンポーネント。Dropdown, Breadcrumbs, Pagination, Toaster, Form Controll, Navigationなど。
   
-#### table 一覧
+### Table 一覧
 
 - 想定機能
   - 一覧設定
@@ -87,10 +109,10 @@
 
 参考
 
-- [freee](https://vibes.freee.co.jp/?path=/docs/lv2-listtable-groupedlisttable--docs)
+- [freee](https://vibes.freee.co.jp/?path=/docs/examples-collection--docs)
 - [SmartHr](https://story.smarthr-ui.dev/?path=/story/smarthr-patterns_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB--default)
 
-### Level3: Layout Patterns
+## Level3: Layout Patterns
 
 画面全体に影響を与えるコンポーネント。Modal, Alertなど。
 
