@@ -1,0 +1,36 @@
+{
+  "name": "quasar-app-extension-common-component",
+  "version": "0.0.1",
+  "description": "Common UI components for CMP application",
+  "author": "Seungha Ock <seungha.ock@mb.lecip.co.jp>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "lint": "eslint ./ && tsc --noEmit"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./src/*": "./src/*"
+  },
+  "engines": {
+    "node": ">= 12.2.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.11",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@quasar/app-vite": "^2.1.4",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.5.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
+  }
+}
