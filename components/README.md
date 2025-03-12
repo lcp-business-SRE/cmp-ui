@@ -1,10 +1,55 @@
 # コンポネントのまとめ
 
-※こちらのREADMEはワーク用です。あとでどこかに移行します。
+コンポネントの方針を整理するために作成しています。
+
+こちらのREADMEはワーク用です。あとで StoryBook に移行するなど共有方法は変更します。
+
+## はじめに
+
+新アーキテクチャで利用するコンポネントを整理します。
+
+そのコンポネントを使用用途、設計思想などを整理していき、開発時に悩まないようにしていくためのものです。
+
+コンポネントは、AtomicDesign の考え方を採用し、以下の３つのレイヤーで整理します。
+
+- Level1: Basic Components Atomic 原子
+- Level2: Combined Components Module 分子
+- Level3: Layout Patterns Atomic 原子
+
+
+
+
+- [コンポネントのまとめ](#コンポネントのまとめ)
+  - [はじめに](#はじめに)
+  - [Level1: Basic Components](#level1-basic-components)
+    - [BUTTONS（ボタン）](#buttonsボタン)
+    - [DropdownMenuButton](#dropdownmenubutton)
+    - [FilterDropdown](#filterdropdown)
+    - [SortDropdown](#sortdropdown)
+    - [選択系](#選択系)
+    - [ラジオ系](#ラジオ系)
+    - [チェックボックス系](#チェックボックス系)
+    - [入力エリア](#入力エリア)
+  - [Level2: Combined Components](#level2-combined-components)
+    - [Table 一覧](#table-一覧)
+      - [他社参考](#他社参考)
+  - [Level3: Layout Patterns](#level3-layout-patterns)
+    - [WORK](#work)
+
 
 ## Level1: Basic Components
 
-コンポーネントとして使える最小の要素。Button, Text, List, TextLink, Label, User Iconなど。 通常状態ではElevationの差がなく、hoverなどによって初めてElevationが変化する。
+コンポーネントとして使える最小の要素。Button, Text, List, TextLink, Label, User Iconなど。 
+
+通常状態ではElevationの差がなく、hoverなどによって初めてElevationが変化する。
+
+> **エレベーションとは**
+> 
+> ブラウザ上で表示されるコンポーネントの高さの度合いを示します。
+> エレベーションのデフォルト値は高さレベル0で、これはエレベーションをもたないコンポーネントのこととなります。
+> デフォルト値をもつコンポーネントはブラウザ上で最も低く表示されます。コンテンツエリアに表示されている各種のコンポーネントの上に重なって表示されるダイアログやスナックバーなどのコンポーネントは、他のコンポーネントより高いエレベーションをもつことでオーバーレイ表示されます。
+> 参考 : [デジタル庁デザインシステムβ版 v2.1.3](https://design.digital.go.jp/foundations/elevation/)
+>
 
 ### BUTTONS（ボタン）
 
