@@ -23,8 +23,12 @@ HCD（[Human Centered Design](https://www.hcdnet.org/)）の重要性が注目�
 
 ユーザーが製品やサービスを利用する際の**全体的な体験**を指し、使いやすさ、満足度、感情的な反応などが含まれます。
 
+</br>
+
 ![UXの全体像](./assets/ux-image.webp)
 ※[ユーザがそのサービスにふれる際のすべての接点が体験](https://note.com/art_reflection/n/n786704edf091)
+
+</br>
 
 ### 優れたUXがもたらすビジネス上のメリット
 
@@ -48,8 +52,12 @@ UXデサインはUIデザインとスコープは異なり、「ユーザイン�
 
 アプリの画面はもちろん、その提供方法や動作はたまた利用するハードウェアや施設、もっといえば営業資料などの紙媒体、接客に至るまで、ユーザが接するすべての設計・デザインが対象となります。
 
+</br>
+
 ![UXとUIの違い](./assets/ux-ui-diff.webp)
 ※[UIはサービスの中のプロダクト（WEBサービス）のインタフェース](https://note.com/art_reflection/n/n786704edf091)
+
+</br>
 
 ではUIデザインはWEBのユーザインタフェースだけを考えればいいのかといえば
 
@@ -95,7 +103,7 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
 
 これは長年アプリケーション開発において培われた知識とノウハウがあるのと、一般のユーザがWEBシステムを身近にふれるようになったいった世の中になったおかげです。
 
-それに対する開発方法も成熟しており、さまざまなテクニックが確立しています。
+それに対する開発方法や技術も成熟しており、さまざまなテクニックが確立しています。
 
 - コンポーネント設計
 - アトミックデザイン
@@ -116,7 +124,7 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
 
 もう少し細かく定義すると
 
-1. 包括的な「デザインの共通言語」をつくり、プロダクトの生産性と品質に貢献すること
+### 1. 包括的な「デザインの共通言語」をつくり、プロダクトの生産性と品質に貢献すること
 
 具体的には、以下に関わるブレを低減し、操作性と開発性を向上させ、結果的に品質アップにつなげることができます。
 
@@ -124,7 +132,7 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
 - プロダクトにおける提供価値の品質
 - ユーザーの体験品質（プロダクト利用時の継続したUX体験）
 
-1. CMP の成長に伴う複雑化に対応するためのシステムの仕組みを提供すること
+### 2. CMP の成長に伴う複雑化に対応するためのシステムの仕組みを提供すること
 
 - 利用企業増による業態や規模の増加（ユースケースの増加）
 - 導入に関わるお客さまの増加（ユーザーの増加）
@@ -202,9 +210,22 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
 
 #### デジタル庁のデザインシステム
 
+![デジタル庁イメージ](./assets/デジタル庁.png)
+
 アクセシビリティを最優先事項に位置付け、誰一人取り残されないデジタル化を推進しています。
 
+[デザインシステム](https://www.digital.go.jp/policies/servicedesign/designsystem)
+
+[デジタル庁デザインシステムβ版 v2.1.3](https://design.digital.go.jp/)
+
+[StoryBook](https://digital-go-jp.github.io/design-system-example-components/?path=/docs/component-dads-v2-table--docs)
+
+[figam](https://www.figma.com/design/aW8GnIz90H12tlpqy2cTtV/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-v1.4.3-(Community)?t=tSR34B69qDdxAxiN-0)
+
 #### SmartHR のデザインシステム
+
+![SmartHR](./assets/smarthr.png)
+
 
 デザインと開発の効率化を達成し、プロダクトの品質向上に寄与しています。
 
@@ -219,6 +240,18 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
 [freeeアクセシビリティー・ガイドライン](https://a11y-guidelines.freee.co.jp/index.html)
 
 #### 一休のデザインシステム
+
+[デザインガイドライン](https://www.ikyu.co.jp/design_guideline)
+
+[一休/Yahooトラベル、マルチブランドにまたがるデザインシステム](https://speakerdeck.com/igayamaguchi/yahootoraberu-marutiburandonimatagarudezainsisutemu)
+
+#### LINEのデザインシステム
+
+[LINE Design System](https://designsystem.line.me/)
+
+#### Amebaのデザインシステム
+
+[Spindle Design System](https://ameba-spindle.web.app/)
 
 </br>
 
@@ -244,8 +277,6 @@ UXは一旦おいておいても、現状のCMPの管理画面の一貫性はお
   - フィードバックを基にデザインシステムを継続的に改善
 
 </br>
-
----
 
 ## 7. 導入における注意点と課題
 
