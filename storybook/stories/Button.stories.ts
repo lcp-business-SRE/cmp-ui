@@ -20,6 +20,8 @@ const meta = {
   },
 } satisfies Meta<typeof Button>;
 
+console.log(meta);
+
 export default meta;
 type Story = StoryObj<typeof meta>;
 /*

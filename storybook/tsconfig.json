@@ -115,10 +115,19 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
 
-  "include": ["./**/*", "./.storybook/*"],
+  "include": [
+    "./*.ts",
+    "./*.js",
+    "./*.mjs",
+    "./.storybook/*",
+    "./stories/**/*",
+
+    // Component dependencies
+    "./node_modules/quasar-app-extension-*/**/*" // Quasar components
+  ],
   "exclude": [
+    "./*/**/node_modules", // Ignore any node_modules in subfolders
     "./**/dist",
-    "./**/node_modules",
     "./**/src-capacitor",
     "./**/src-cordova",
     "./**/quasar.config.*.temporary.compiled*"

@@ -7,7 +7,7 @@ const meta: Meta<typeof MyComponent> = {
   title: 'Test/MyComponent',
 };
 
-console.log(MyComponent);
+console.info(meta);
 
 export default meta;
 
