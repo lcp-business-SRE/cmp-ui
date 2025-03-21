@@ -1,9 +1,12 @@
-# CMPデザインシステム
+# CMP デザインシステム
 
-
-CMPのデザインシステムに関するリソースを管理する。
+CMP のデザインシステムに関するリソースを管理する。
 
 <div id="top"></div>
+
+## CI/CD
+
+[![Create Storybook with GitHub Pages](https://github.com/lcp-business-SRE/cmp-ui/actions/workflows/create-storybook.yml/badge.svg)](https://github.com/lcp-business-SRE/cmp-ui/actions/workflows/create-storybook.yml)
 
 ## 使用している主な技術
 
@@ -28,7 +31,8 @@ CMPのデザインシステムに関するリソースを管理する。
 
 ## 目次
 
-- [CMPデザインシステム](#cmpデザインシステム)
+- [CMP デザインシステム](#cmp-デザインシステム)
+  - [CI/CD](#cicd)
   - [使用している主な技術](#使用している主な技術)
   - [目次](#目次)
   - [プロジェクトについて](#プロジェクトについて)
@@ -50,10 +54,10 @@ CMPのデザインシステムに関するリソースを管理する。
 
 ## 環境
 
-| 言語・フレームワーク  | バージョン |
-| --------------------- | ---------- |
-| Node.js               | X.X.X    |
-| Terraform             | X.X.X      |
+| 言語・フレームワーク | バージョン |
+| -------------------- | ---------- |
+| Node.js              | X.X.X      |
+| Terraform            | X.X.X      |
 
 ### コンポネント環境
 
