@@ -7,8 +7,6 @@ const meta: Meta<typeof MyComponent> = {
   title: 'Test/MyComponent',
 };
 
-console.info(meta);
-
 export default meta;
 
 type Story = StoryObj<typeof meta>;
