@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
           persist-credentials: true
-          submodule: recursive
+          submodules: recursive
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
