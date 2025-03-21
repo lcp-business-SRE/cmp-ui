@@ -30,7 +30,7 @@ jobs:
       - run: cd storybook && npm run build-storybook
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: storybook-static/
+          path: storybook/storybook-static/
 
   deploy:
     runs-on: ubuntu-latest
