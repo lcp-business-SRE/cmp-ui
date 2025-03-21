@@ -62,7 +62,7 @@ CMPのデザインシステムに関するリソースを管理する。
 <!-- Storybookのリンク -->
 </br>
 <div align="right">
-    <a href="./docs/README.md"><strong>StoryBook »</strong></a>
+    <a href="https://lcp-business-sre.github.io/cmp-ui/"><strong>StoryBook »</strong></a>
 </div>
 </br>
 
